@@ -1,0 +1,90 @@
+.match-container{
+    width: 300px;
+    height: 300px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.match-container:hover{
+    filter: brightness(60%);
+}
+
+
+
+.match-grid-container{
+    height: 300px;
+    display: grid;
+    grid-template-rows: 0.6fr 1.4fr 0.6fr;
+    grid-template-columns: 300px;
+    justify-content: center;
+}
+.title{
+    justify-self: center;
+    align-self: center;
+}
+.match-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 180px;
+    
+}
+.player-count{
+    justify-self: flex-start;
+    align-self: center;
+    margin-left: 40px;
+    /* display: inline-block; */
+}
+.status{
+    align-self: center;
+    justify-self: center;
+    
+}
+.ps-container{
+    display: grid;
+    justify-items: flex-end;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c d";
+    height: 140px;
+}
+
+.dashboard{
+    grid-area: a;
+    margin-left: 80px;
+    align-self: flex-end;
+    margin-bottom: 0px;
+
+}
+
+.matchrooms{
+    grid-area: c;
+    margin-left: 80px;
+    align-self: flex-end;
+}
+
+.create-button{
+    background-color:#c0fdfb;
+    width: 150px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button-containerr{
+    grid-area: d;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 80px;
+}

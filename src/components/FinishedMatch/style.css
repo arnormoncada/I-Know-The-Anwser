@@ -1,0 +1,96 @@
+.summary-container{
+    display: grid;
+    grid-template-rows: 140px 500px 1fr;
+    flex-direction: row;
+
+}
+
+
+.podium-container{
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr 1.4fr;
+    justify-items: center;
+    align-items: flex-end;
+}
+.podium-one{
+    width: 260px;
+    height: 300px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.podium-two{
+    width: 260px;
+    background-color: #f2f2f2;
+    height: 200px;
+    justify-self: flex-end;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.podium-three{
+    width: 260px;
+    background-color: #f2f2f2;
+    height: 140px;
+    justify-self: flex-start;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.score-board-container{
+    margin-top: 80px;
+    justify-self: center;
+
+
+}
+.score-board{
+    width: 65vw;
+    /* background-color: #f2f2f2; */
+    /* height: 400px; */
+}
+
+.scoreboard-entry{
+    width: 65vw;
+    display: grid;
+    grid-template-columns: 6vw 6vw 6vw 47vw;
+    align-items: center;
+    justify-items: center;
+    background-color: #f2f2f2;
+    margin-bottom: 1px;
+    height: 80px;
+
+}
+.scoreboard-entry p{
+    font-weight: bold;
+}
+.scoreboard-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.scoreboard-points{
+    justify-self: flex-end;
+    margin-right: 40px;
+}
+
+#podium-one{
+    display: grid;
+    justify-items: center;
+}
+#podium-two{
+    display: grid;
+    justify-items: center;
+}
+#podium-three{
+    display: grid;
+    justify-items: center;
+}
+
+
+

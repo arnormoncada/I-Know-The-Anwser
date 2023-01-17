@@ -1,0 +1,41 @@
+.match-header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.match-containerr{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.match-button{
+    background-color:#c0fdfb;
+    width: 150px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.player-container{
+    width: 300px;
+    height: 260px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+    /* display: flex; */
+}
+
+.player-img{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

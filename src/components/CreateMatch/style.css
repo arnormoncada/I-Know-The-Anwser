@@ -1,0 +1,42 @@
+
+.add-button{
+    /* float: right; */
+    display: block;
+    margin-right: 60px;
+    background-color:#c0fdfb;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.upper-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    height: 300px;
+    grid-template-areas: 
+    "first first first"
+    "second second second"
+    "third third third"
+    "fourth fifth sixth";
+}
+.text-input{
+    width: 900px;
+
+}
+
+h2{
+    grid-area: first;
+}
+.title-match{
+    grid-area: second;
+}
+.match-image{
+    grid-area: third;
+}
+#add{
+    grid-area: fourth;
+}
